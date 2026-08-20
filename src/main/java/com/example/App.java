@@ -15,7 +15,7 @@ public class App {
         server.createContext("/", exchange -> {
  
             String response =
-                    "Hello from Java application running inside Docker!";
+                    "Hello from Shivam ... Welcome to Docker and Jenkins integration!";
  
             exchange.sendResponseHeaders(200, response.length());
  
